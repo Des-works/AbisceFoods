@@ -68,7 +68,7 @@ class Menu(models.Model):
                 pass
 
     def __str__(self):
-        return self.name +' ' +'£  ' + self.price
+        return self.name +'<================> ' +'£  ' + str(self.price)
     
 
 
