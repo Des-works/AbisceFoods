@@ -12,7 +12,7 @@ SECRET_KEY=config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG= True
+DEBUG= False
 ALLOWED_HOSTS = ['46.101.84.142']
 
 
@@ -76,7 +76,7 @@ else:
     DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'abisceDB',
+        'NAME': 'abiscedb',
         'USER': 'admin',
         'PASSWORD': 'admin',
         'HOST': 'localhost',
