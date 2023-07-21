@@ -79,7 +79,7 @@ if DEBUG:
 # 'default': {
 #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
 #     'NAME': 'abiscedb',
-#     'USER': 'admin',
+#     'USER': 'destiny',
 #     'PASSWORD': 'admin',
 #     'HOST': 'localhost',
 #     'PORT': '',
