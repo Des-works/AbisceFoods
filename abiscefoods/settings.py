@@ -78,8 +78,8 @@ else:
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'abiscedb',
-        'USER': 'destiny',
-        'PASSWORD': 'admin',
+        'USER': 'admin',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '',
         }
