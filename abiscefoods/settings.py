@@ -13,7 +13,7 @@ SECRET_KEY=config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 
 DEBUG= True
-ALLOWED_HOSTS = ['abiscefoodsltd.com','165.227.226.100']
+ALLOWED_HOSTS = ['abiscefoodsltd.com','157.245.47.241']
 
 
 # Application definition
