@@ -73,17 +73,17 @@ if DEBUG:
             "NAME": BASE_DIR / "db.sqlite3",
         }
     }
-# else:
-    # DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    #     'NAME': 'abiscedb',
-    #     'USER': 'destiny',
-    #     'PASSWORD': 'admin',
-    #     'HOST': 'localhost',
-    #     'PORT': '',
-    #     }
-    # }
+else:
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'abiscedb',
+        'USER': 'destiny',
+        'PASSWORD': 'admin',
+        'HOST': 'localhost',
+        'PORT': '',
+        }
+    }
 
 
 # Password validation
