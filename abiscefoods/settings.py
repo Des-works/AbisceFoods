@@ -13,7 +13,7 @@ SECRET_KEY=config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 
 DEBUG= False
-ALLOWED_HOSTS = ['abiscefoodsltd.com','157.245.47.241']
+ALLOWED_HOSTS = ['abiscefoodsltd.com','157.245.47.241','wwww.abiscefoodsltd.com']
 
 
 # Application definition
@@ -131,3 +131,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True
+SECURE_HSTS_PRELOAD = True
+SECURE_HSTS_SECONDS = 3153600 #1year
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
